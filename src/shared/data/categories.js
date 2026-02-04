@@ -31,23 +31,12 @@ export const categories = [
   },
   {
     id: 7,
-    name: "माता दुर्गा",
-    logo: "/categories/durga.jpg",
-  },
-  {
-    id: 8,
     name: "गणेश जी",
     logo: "/categories/ganesh.jpg",
   },
   {
-    id: 9,
-    name: "सरस्वती माता",
-    logo: "/categories/saraswati.jpg",
-  },
-  {
-    id: 10,
+    id: 8,
     name: "महात्मा बुद्ध",
-    logo: "/categories/buddha.jpg",
+    logo: "/categories/budhha.jpg",
   },
 ];
-
