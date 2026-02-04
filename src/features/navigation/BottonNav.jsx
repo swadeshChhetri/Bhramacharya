@@ -17,7 +17,7 @@ export default function BottomNav() {
         <Plus size={28} />
       </button>
       <NavItem to="/dashboard" label="Dashboard" icon={LayoutDashboard} />
-      <NavItem to="/account" label="Account" icon={User} />
+      <NavItem to="/account" label="Accounts" icon={User} />
     </div>
   );
 }
