@@ -6,13 +6,13 @@ export const categories = [
   },
   {
     id: 2,
-    name: "श्रीराम",
-    logo: "/categories/shriram.jpg",
+    name: "भीम मितानह",
+    logo: "/categories/bheem.jpg",
   },
   {
     id: 3,
-    name: "लक्ष्मण जी",
-    logo: "/categories/lakshman.jpg",
+    name: "राम जी",
+    logo: "/categories/ram.jpg",
   },
   {
     id: 4,
@@ -21,22 +21,32 @@ export const categories = [
   },
   {
     id: 5,
-    name: "श्रीकृष्ण",
-    logo: "/categories/krishna.jpg",
+    name: "परशुराम जी",
+    logo: "/categories/parshuram.jpg",
   },
   {
     id: 6,
-    name: "भगवान शिव",
-    logo: "/categories/shiv.jpg",
+    name: "नारद मुनि",
+    logo: "/categories/narad.jpg",
   },
   {
     id: 7,
-    name: "गणेश जी",
-    logo: "/categories/ganesh.jpg",
+    name: "शुक्राचार्य",
+    logo: "/categories/shukracharya.jpg",
   },
   {
     id: 8,
-    name: "महात्मा बुद्ध",
-    logo: "/categories/budhha.jpg",
+    name: "मनु कुमार",
+    logo: "/categories/manu.jpg",
+  },
+  {
+    id: 9,
+    name: "श्रीमद बुद्ध",
+    logo: "/categories/buddha.jpg",
+  },
+  {
+    id: 10,
+    name: "आदि शंकराचार्य",
+    logo: "/categories/shankaracharya.jpg",
   },
 ];
