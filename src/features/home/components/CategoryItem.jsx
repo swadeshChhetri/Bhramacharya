@@ -1,15 +1,21 @@
-export default function CategoryItem({ name, logo }) {
+export default function CategoryItem({ category, onSelect }) {
   return (
-    <div className="flex flex-col items-center min-w-[72px]">
-      <div className="w-16 h-16 rounded-full border-4 border-orange-400 flex items-center justify-center bg-white overflow-hidden">
+    <button
+      onClick={() => onSelect(category)}
+      className="flex flex-col items-center w-[88px] focus:outline-none"
+    >
+      <div className="w-18 h-18 rounded-full bg-white border border-orange-300 shadow-sm hover:shadow-md transition overflow-hidden">
         <img
-          src={logo}
-          alt={name}
+          src={category.logo}
+          alt={category.name}
           className="w-full h-full object-cover"
           loading="lazy"
         />
       </div>
-      <span className="text-xs mt-1 text-center">{name}</span>
-    </div>
+
+      <span className="mt-2 text-[11px] font-medium text-center text-gray-800 line-clamp-2">
+        {category.name}
+      </span>
+    </button>
   );
 }
